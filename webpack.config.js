@@ -70,14 +70,6 @@ export default {
         characters: data.results
       }
     }),
-    new HtmlWebpackPlugin({
-      filename: "about.html",
-      template: "./src/views/about.njk",
-    }),
-    new HtmlWebpackPlugin({
-      filename: "contacts.html",
-      template: "./src/views/contacts.njk",
-    }),
     ...pages
   ],
 };
