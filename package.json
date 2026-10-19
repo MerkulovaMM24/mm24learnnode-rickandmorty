@@ -6,7 +6,7 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "serve": "webpack serve --mode development",
-    "deploy": "npm run build && surge ./dist Alissia.surge.sh"
+    "deploy": "npm run build && surge ./dist Alissia_rickandmorty.surge.sh"
   },
   "keywords": [],
   "author": "",
